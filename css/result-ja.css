@@ -1,0 +1,197 @@
+.main-wrapper *:not(.fa) {
+    font-family: "Open Sans", 'Helvetica Neue', Arial !important;
+}
+.main-wrapper {
+    min-height: inherit;
+    height: auto;
+    margin: 0 auto -105px;
+}
+.min-height-wrapper {
+    min-height: 670px;
+    padding: 0 15% 20px 15%;
+}
+.main-wrapper .type-description .results {
+    margin-top: 70px;
+}
+.main-wrapper .type-description .results .type-info {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+.main-wrapper .type-description .results .type-info .caption {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+.main-wrapper .type-description .results .type-info .nice-type {
+    font-size: 3.2em;
+    margin-bottom: 5px;
+}
+.wrapper.international .type-description .results .type-info .basic-type {
+    font-size: 2.8em;
+}
+.main-wrapper .type-description .results .avatar-wrapper {
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-wrapper .type-description .results .avatar-wrapper img {
+    width: 100%;
+    max-width: 320px;
+}
+.main-wrapper .type-description .results .traits-wrapper {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait {
+    margin-bottom: 15px;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .caption {
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", Arial;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar-caption .left-trait,
+.main-wrapper .type-description .results .traits-wrapper .trait .bar-caption .right-trait {
+    font-size: 1.2em;
+    padding-top: 3px;
+    margin-bottom: 5px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar-caption .left-trait {
+    text-align: left;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar-caption .right-trait {
+    text-align: right;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .left,
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .right {
+    background-color: #F5F5F5;
+    min-width: 60px;
+    max-width: calc(100% - 60px);
+    float: left;
+    padding: 0 15px;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .left {
+    border-right: 2px solid #FFFFFF;
+    border-radius: 99px 0 0 99px;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .count {
+    font-size: 1em;
+    background-color: #FFFFFF;
+    min-width: 40px;
+    height: 40px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", Arial;
+    border-radius: 99px;
+    position: relative;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .left .count {
+    float: left;
+    margin: 5px 10px 5px -10px;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .right .count {
+    float: right;
+    margin: 5px -10px 5px 10px;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .right {
+    border-left: 2px solid #FFFFFF;
+    border-radius: 0 99px 99px 0;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar .active {
+    background-color: #51A9AB !important;
+}
+.main-wrapper .type-description .results .traits-wrapper .trait .bar:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.main-wrapper .type-description .test-results-description {
+    padding-top: 20px;
+}
+blockquote {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 0 0 20px;
+    border: none;
+}
+blockquote:after, blockquote:before {
+    content: "";
+}
+p {
+    line-height: 2;
+    margin-bottom: 17px;
+}
+blockquote p {
+    margin-bottom: 5px;
+    margin: 0 0 10px;
+}
+blockquote .small, blockquote footer, blockquote small {
+    display: block;
+    font-size: 80%;
+    color: #777;
+}
+address, blockquote .small, blockquote footer, blockquote small, dd, dt, pre {
+    line-height: 1.42857143;
+}
+blockquote footer {
+    font-size: 0.9em;
+    text-align: right;
+}
+blockquote .small:before, blockquote footer:before, blockquote small:before {
+    content: '\2014 \00A0';
+}
+.main-wrapper h1, .main-wrapper h2, .main-wrapper h3, .main-wrapper h4, .main-wrapper h5 {
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.description-pullout {
+    border-left: 10px solid #51a9ab;
+    background-color: #F6F5F4;
+    padding: 25px 40px;
+    line-height: 1.8;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+.main-wrapper .celebrities-wrapper {
+    margin: 45px 0 25px 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.main-wrapper .celebrities-wrapper .celebrity-list .celebrity .avatar {
+    position: relative;
+    margin-bottom: 20px;
+}
+.celebrities-wrapper .celebrity-list .celebrity .avatar img {
+    width: 200px;
+}
+.main-wrapper .celebrities-wrapper .celebrity-list .celebrity .name,
+.main-wrapper .celebrities-wrapper .celebrity-list .celebrity .movie {
+    width: 180px;
+    font-size: 1.1em;
+    text-align: center;
+}
+.main-wrapper .celebrities-wrapper .celebrity-list .celebrity .name {
+    font-weight: 600;
+}

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3",
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    }
+}
